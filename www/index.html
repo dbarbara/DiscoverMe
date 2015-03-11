@@ -3,20 +3,76 @@
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+
+        <!--  WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/scaling.css" />
+
         <meta name="msapplication-tap-highlight" content="no" />
-        <title>Hello World</title>
+        <title>dscovr.me</title>
+
+        <script type="text/javascript" charset="utf-8">
+
+            /// Wait for device API libraries to load
+            //
+            document.addEventListener("deviceready", onDeviceReady, false);
+
+            var watchID = null;
+
+            // device APIs are available
+            //
+            function onDeviceReady() {
+                // Throw an error if no update is received every 30 seconds
+                var options = { timeout: 3 };
+                watchID = navigator.geolocation.watchPosition(onSuccess, onError, options);
+            }
+
+            // onSuccess Geolocation
+            //
+            function onSuccess(position) {
+                var element = document.getElementById('geolocation');
+                element.innerHTML = 'Latitude: '  + position.coords.latitude      + '<br />' +
+                'Longitude: ' + position.coords.longitude     + '<br />' +
+                '<hr />'      + element.innerHTML;
+            }
+
+            // onError Callback receives a PositionError object
+            //
+            function onError(error) {
+                alert("Please turn on your Location service");
+            }
+
+
+        </script>
+
+
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header>
+
+            </header>
+
+            <!-- Content -->
+            <content>
+                <div id="logo">
+                    <p id="geolocation">Watching geolocation...</p>
+
+                    <img src="img/welcome_logo.png" alt="banner" />
+                </div>
+            </content>
+
+            <!-- Footer -->
+            <footer>
+                <img src="img/footer_background_with_shape.png" alt="banner" />
+            </footer>
         </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
