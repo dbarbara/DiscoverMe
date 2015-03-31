@@ -1,0 +1,234 @@
+.icon-small{
+    margin-left: 36px;
+    margin-top: 5px;
+    max-width: 60px;
+    height: auto;
+    vertical-align: middle;  
+}
+.left-pad{
+    padding-left: 15px;
+}
+#footer-meta-inner{
+    min-height: 100%;
+    position: relative;
+    max-width: 540px;
+    margin: auto;
+}
+/*#black-hover{
+    position: absolute; left: 0; top: 0; right: 0; bottom: 0; background: url("../img/hover-bg-black.png") repeat left top !important;
+    z-index: 9999999999999;
+}*/
+
+ 
+  
+.black-hover {
+   position: relative; 
+   left: 0; 
+   top: 0; 
+   right: 0; 
+   bottom: 0; 
+   /*background:  url("../img/black-bg-hover.png") repeat ;*/ 
+    background: url("../img/hover-bg-black.png") repeat left top !important;
+   z-index: 9999999999999999999999 !important;
+   color: #FFFFFF;
+    overflow: hidden; 
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.black-hover:hover{
+    display: block;
+    position: relative;
+    z-index:9999999999999999 !important;
+    overflow: hidden;  
+}
+ 
+#black-hover {
+    position: relative;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/hover-bg-black.png") repeat left top !important;
+    margin:auto;
+    z-index: 10 !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#page-header-2{
+    position: relative;
+    display: block;
+}
+
+.accept{
+    background: url("../img/accept.png") no-repeat center #F2A905;
+}
+.accept-decline{
+    margin: auto;
+    height: auto;
+    width: auto;
+    margin-top: -220px;
+    position: relative;
+    display: block;
+    z-index: 9999999;
+}
+.left-acc, .right-decline{
+    padding:0px;
+    margin: 0;
+    position: relative;
+    display: block;
+    z-index: 999999999;
+}
+.text{ width: 100%; height: 100%; top:0px; margin-top:0px; padding:0px; font-size:20px;  text-align:center; ;   position:absolute;  z-index: 999 !important;} 
+.text:hover { position:absolute; top:0px;  margin-top:0px; display: block;  z-index: 999 !important}  
+
+.list-box h1, .list-box-advert h1, .check-map-btn h1{
+    color: #286885;
+} 
+.list-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #286885;
+    float: left;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    max-height: 100px;
+    width: 93%;
+}
+.list-description {
+    color: #65676b;
+    max-height: 50px;
+    overflow: hidden;
+}
+.list-right-holder {
+    width: 62%;
+}
+
+.list-description-icon {
+    margin: auto;
+    min-height: 100px;
+    padding-top: 4%;
+    text-align: center;
+    vertical-align: middle;
+}
+.list-img {
+    display: block;
+    margin: 2%;
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+}
+
+.list-box .overlay {
+    display: block;
+    height: 100%;
+    margin-top: -1px;
+    max-height: 100px;
+    position: relative;
+    width: 100%;
+    z-index: 2147483647;
+}
+
+.list-box-advert{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #286885;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    max-height: 300px;
+    height: 300px;
+    width: 93%;
+}
+.list-advert-btns{
+    
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    max-height: 100px;
+    height: 100px;
+    width: 93%;
+}
+.check-map-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #286885;
+    float: left;
+    height: 100%;
+    width: 242px;
+}
+.title-shop-advert {
+    height: auto;
+    padding-left: 22px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.list-right-holder-advert{
+    width: 100%;
+}
+.list-img-advert {
+    padding-left: 9px;
+}
+.list-description-advert{
+    padding: 15px;
+}
+
+.check-map-btn{
+    vertical-align: middle;
+    text-align: center;
+}
+.middle, .middle-globe{
+    height: 100%;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    width: auto;
+    padding-left:10px;
+    padding-top: 19px;
+}
+.middle{
+    padding-top:31px;
+}
+.arrows-map-btn {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #286885;
+    float: left;
+    height: 100%;
+    margin-left: 12px;
+    width: 108px;
+}
+
+.middle-arrows {
+    display: block;
+    height: 100%;
+    margin: auto;
+    max-height: 100%;
+    padding-top: 19px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.arrows-map-btn .overlay {
+    display: block;
+    height: 100%;
+    margin-top: -100px;
+    max-height: 100px;
+    position: relative;
+    width: 100%;
+    z-index: 2147483647;
+}
+.check-map-btn .overlay {
+    display: block;
+    height: 100%;
+    margin-top: -1px;
+    max-height: 100px;
+    position: relative;
+    width: 100%;
+    z-index: 2147483647;
+}
