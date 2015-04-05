@@ -22,7 +22,7 @@ var SNApi = {
 		}});
 	},
 	callService: function(controller, params, options) {
-		var serviceUrl = this.baseUrl + "/" + controller + '.php?action=' + params;
+		var serviceUrl = this.baseUrl + "/" + controller + '.php';
 		var retData = null;
 		var doneFunction = (options && options.doneFunction) ? options.doneFunction : function(){ $.mobile.loading( 'hide', {}); };
 		var failFunction = (options && options.failFunction) ? options.failFunction : function(failData){
@@ -76,6 +76,6 @@ var SNApi = {
 	},
 
 	indexCategories: function(successFunction) {
-		this.callServiceAsync('api', 'category', successFunction);
+		this.callServiceAsync('category', {"test":"test"}, successFunction);
 	}
 };
