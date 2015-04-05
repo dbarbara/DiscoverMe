@@ -1,6 +1,154 @@
 /* Media Queries */
 @charset "utf-8";
 
+@media screen and (min-width: 1023px) and (max-width: 1280px) {
+    
+        #list-shops #wrap-list {
+            min-height: 100%;
+        }
+        #list-shops .list-box, #display-list .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            max-height: 79px;
+            width: 93%;
+        }
+        #list-shops .list-right-holder, 
+        #display-list .list-right-holder {
+            width: 45%;
+        }
+
+        #list-shops .list-img,
+        #display-list .list-img {
+            min-height: 0;
+        }
+        #list-shops .list-img ,
+        #display-list .list-img {
+            display: block;
+            margin: 0;
+            max-height: 80px;
+            min-height: 55px;
+            padding: 2%;
+            position: relative;
+            text-align: left;
+            vertical-align: middle;
+            width: auto;
+        }
+        #display-list .list-img img,        #list-shops .list-img img {
+            max-width: 75%;
+        }
+
+        
+        #display-list .list-box-advert {
+            height: 240px;
+        }
+        #display-list .list-right-holder-advert {
+            height: 47%;
+        }
+        #display-list .title-shop-advert {
+            height: auto;
+            padding-left: 22px;
+            padding-top: 0px;
+            width: 100%;
+        }
+        #display-list .title-shop-advert h1 {
+            font-size: 14px;
+        }
+        #display-list .list-box h1 {
+            font-size: 14px;
+        }
+        #list-shops .list-right-holder ,
+        #display-list .list-right-holder {
+            width: 64%;
+        }
+
+        #list-shops .list-box .title-shop ,
+        #display-list .list-box .title-shop {
+            font-size: 14px;
+            max-height: 24px;
+        }
+        .title-shop {
+            height: 29px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #list-shops .list-box .list-description ,
+        #display-list .list-box .list-description {
+            color: #65676b;
+            font-size: 13px;
+            max-height: 34px;
+            overflow: hidden;
+        }
+
+        .list-description-icon {
+            margin: auto;
+            min-height: 80px;
+            padding-top: 2%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        #list-shops .list-box .list-description-icon img {
+            max-width: 70%;
+        }
+        #list-shops .list-box h1 {
+            font-size: 14px;
+        }
+        #display-list .check-map-btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100%;
+            width: 242px;
+        }        
+        #display-list .middle, #display-list .middle-globe {
+            height: 100%;
+            margin: auto;
+            padding-left: 10px;
+            padding-top: 0;
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+        }
+                #display-list 
+        .middle-arrows {
+            display: block;
+            height: 100%;
+            margin: auto;
+            max-height: 100%;
+            padding-top: 0px;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+        }
+        #display-list .middle h1{
+            font-size: 17px;
+        }
+        #display-list .middle {
+            padding-top: 14px;
+        }
+        #display-list #wrap{
+            padding-top: 0px;
+        }
+        #display-list #page-header-2 .container-2 a{
+            margin-left: -21px;
+        }
+        
+        #display-list .list-advert-btns {
+            float: left;
+            height: 60px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            max-height: 60px;
+            width: 93%;
+        }
+}
 @media screen and (max-width: 1023px) {
         #logo{
             display: block;
@@ -17,6 +165,15 @@
 	.controls .center { clear: both; text-align: left; }
 	#wrap-container { background: none; }
         #page-footer { margin-top: -949px; }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 53px;
+            margin-top: 16px;
+            max-width: 41px;
+            vertical-align: middle;
+        }
+       
 }
 
 @media screen and (max-width: 980px) {
@@ -32,6 +189,9 @@
             padding-top: 40%;
             text-align: center;
             width: 50%;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -20px;
         }
         .filters select { width: 100%; }
         .pager { font-size: 13px; padding: 15px; margin: 0 0 20px; }
@@ -70,6 +230,24 @@
         #list-shops  #wrap-list {
             padding-bottom: 314px;
         }
+        #display-list #content-container {
+            padding-top: 0px;
+        }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 36px;
+            margin-top: 64px;
+            max-width: 60px;
+            vertical-align: middle;
+        }
+        #list-shops #page-footer-4{
+            margin-top: 60px;
+        }
+        #list-shops a img, #list-shops a{
+            margin-left: 0px;
+            padding: 0;
+        }
 }
 
 @media screen and (max-width: 800px) {
@@ -78,6 +256,9 @@
 	#wrap { padding-bottom: 352px; }
         #wrap-list {
             padding-bottom: 504px;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -20px;
         }
         .list-box {
             background-color: rgba(255, 255, 255, 0.5);
@@ -139,6 +320,9 @@
         #list-shops #wrap-list {
             padding-bottom: 404px;
         }
+        #list-shops #wrap-container{
+            margin-bottom: -114px;
+        }
 }
 
 @media screen and (max-width: 768px) {
@@ -182,6 +366,16 @@
             padding-bottom: 148px;
         }
         
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 41px;
+            margin-top: 44px;
+            max-width: 54px;
+            vertical-align: middle;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -20px;
+        }
 }
 
 @media screen and (max-width: 639px) {
@@ -212,7 +406,7 @@
         body{overflow: hidden;}
 	#wrap { padding-bottom: 455px; }
 	.container {text-align: center;}
-	#page-header { height: 300px; }
+	#page-header { height: 350px; }
 	#page-header .container { padding: 40px; text-align: center;}
 	#page-header .container-2 { padding: 10px;}
         #logo{
@@ -225,6 +419,15 @@
         }
 	#header-meta { left: 10px; right: 10px; top: 8px; }
 	#page-footer { height: 415px; margin-top: -448px; }
+        #home #page-footer {
+            height: 390px;
+            margin-top: -517px;
+        }
+
+        #home #page-footer {
+            height: 150px;
+            margin-top: -498px;
+        }
 	#page-footer .container { height: 415px; text-align: center;}
 	#page-footer .column { float: none; width: auto; padding-left: 0; padding-right: 0 !important; }
 	#page-footer h3 { margin: 0 0 20px; }
@@ -474,10 +677,65 @@
         }
         #display-list #wrap {
             margin-top: -28px;
-            padding-bottom: 388px;
+            padding-bottom: 452px;
         }
+        #display-list #page-header-2 .container-2 a img, #display-list #page-header-2 .container-2 img{
+            width:  15%;
+            margin-left: 7px;
+        }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 27px;
+            margin-top: 16px;
+            max-width: 31px;
+            vertical-align: middle;
+        }
+        #list-shops .list-img{
+            min-height: 0;
+            max-height: 30;
+        }
+        
+        
 }
- 
+@media screen and (max-width: 320px){ 
+    #list-shops #page-footer-4 {
+        margin-top: 0px;
+    }
+    #list-shops #wrap-container {
+        margin-bottom: -245px;
+    }
+    
+    #display-list .list-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        max-height: 60px;
+        width: 88%;
+    }
+
+    #display-list .list-img {
+        margin: 0 0 0 -10px;
+    }
+    #display-list .list-description-icon img {
+        max-width: 69%;
+        padding-top: 0px;
+    }
+    #display-list .list-img img {
+        max-width: 60%;
+    }
+    #display-list #page-header-2 .container-2 a {
+        margin-left: -8px;
+    }
+    #display-list #wrap {
+        margin-top: -28px;
+        padding-bottom: 405px;
+    }
+}
 @media screen and (min-width: 341px) and (max-width: 360px){
         body{overflow: hidden;}
        .left-pad{
@@ -690,6 +948,41 @@
             margin: 0;
             padding: 0;
         }
+     
+        #home #page-footer {
+            height: 150px;
+            margin-top: -498px;
+        }
+        
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 29px;
+            margin-top: 30px;
+            max-width: 37px;
+            vertical-align: middle;
+        }
+        #display-list #page-header-2 .container-2 a img, #display-list #page-header-2 .container-2 img{
+            width:  15%;
+            margin-left: 7px;
+        }
+         #display-list #wrap {
+            margin-top: 0;
+            padding-bottom: 452px;
+            padding-top: 0px;
+        }
+        #list-shops #wrap-list {
+            padding-bottom: 183px;
+        }
+        #display-list #wrap {
+            margin-top: 0;
+            padding-bottom: 473px;
+            padding-top: 0;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -8px;
+        }
+        
 }
 
 @media print {
@@ -713,4 +1006,13 @@
 /* Webkit hack */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
+}
+/* media query for most mobile devices */
+@media only screen and (min-width: 0px) and (max-width: 480px){
+ 
+    .overlay-content {
+        width: 96%;
+        margin: 0 2%;
+        left: 0;
+    }
 }

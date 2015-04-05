@@ -95,7 +95,7 @@ img { vertical-align: middle; max-width: 100%; height: auto; }
  */
 a, a:active { color: #0060c4; text-decoration: none; overflow: hidden; outline: none; }
 a:hover, a:focus { text-decoration: underline; color: #0060c4; }
-a:link { -webkit-tap-highlight-color: #FF5E99; } 
+a:link { /*-webkit-tap-highlight-color: #FF5E99;*/ -webkit-tap-highlight-color: rgba(0,0,0,0); } 
 
 /* 
  * Text Selection
@@ -110,19 +110,19 @@ a:link { -webkit-tap-highlight-color: #FF5E99; }
 body { font: 14px/20px sans-serif; color: #000; background: #fff; }*/
 
 * {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);  make transparent link selection, adjust last value opacity 0 to 1.0 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); // make transparent link selection, adjust last value opacity 0 to 1.0 
     margin: 0;
     padding: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 html {
     overflow: none;
 }
 body {
-    -webkit-touch-callout: none;                 prevent callout to copy image, etc when tap to hold 
-    -webkit-text-size-adjust: none;              prevent webkit from resizing text to fit 
-    -webkit-user-select: none;                   prevent copy paste, to allow, change 'none' to 'text' 
+    -webkit-touch-callout: none;               //  prevent callout to copy image, etc when tap to hold 
+    -webkit-text-size-adjust: none;             // prevent webkit from resizing text to fit 
+    -webkit-user-select: none;                  // prevent copy paste, to allow, change 'none' to 'text' 
     background:#ffffff;
     font-size: 13px;
     color: #666666;
@@ -429,6 +429,7 @@ a.overlay, div.overlay > a { position: absolute; left: 0; top: 0; right: 0; bott
 }
 #page-footer {  margin-top: -607px; }
 #page-footer-2 {  margin-top: -250px; }
+#list-shops a img, #list-shops a{ padding:0px; margin-left: -4px;}
 .container-2{
     margin: 0 auto; 
     max-width: 540px; 
@@ -446,4 +447,7 @@ a.overlay, div.overlay > a { position: absolute; left: 0; top: 0; right: 0; bott
 }
 .right-arrow{
     margin-right:13%;
+}
+#list-shops{
+    min-height: 100%;
 }
