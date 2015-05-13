@@ -343,6 +343,13 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
+    },
+    {
+        "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
+        "id": "com.phonegap.plugins.PushPlugin.PushNotification",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -362,7 +369,8 @@ module.exports.metadata =
     "org.apache.cordova.media-capture": "0.3.6",
     "org.apache.cordova.network-information": "0.2.15",
     "org.apache.cordova.statusbar": "0.1.10",
-    "org.apache.cordova.vibration": "0.3.13"
+    "org.apache.cordova.vibration": "0.3.13",
+    "com.phonegap.plugins.PushPlugin": "2.4.0"
 }
 // BOTTOM OF METADATA
 });

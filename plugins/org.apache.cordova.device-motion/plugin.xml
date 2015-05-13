@@ -102,7 +102,7 @@
         <config-file target="www/config.xml" parent="/widget">
             <feature name="Accelerometer" value="Accelerometer"/>
         </config-file>
-        <source-file src="src/blackberry10/index.js" target-dir="Accelerometer" />
+        <source-file src="src/blackberry10/app.js" target-dir="Accelerometer" />
     </platform>
 
     <!-- wp7 -->

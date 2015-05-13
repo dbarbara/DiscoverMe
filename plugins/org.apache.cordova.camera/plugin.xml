@@ -155,7 +155,7 @@
 
     <!-- blackberry10 -->
     <platform name="blackberry10">
-        <source-file src="src/blackberry10/index.js" target-dir="Camera" />
+        <source-file src="src/blackberry10/app.js" target-dir="Camera" />
         <config-file target="www/config.xml" parent="/widget">
             <feature name="Camera" value="Camera"/>
         </config-file>

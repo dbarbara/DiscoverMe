@@ -120,7 +120,7 @@
 	
     <!-- blackberry10 -->
     <platform name="blackberry10">
-        <source-file src="src/blackberry10/index.js" target-dir="Vibration"/>
+        <source-file src="src/blackberry10/app.js" target-dir="Vibration"/>
         <lib-file src="src/blackberry10/native/device/libVibration.so" arch="device" />
         <lib-file src="src/blackberry10/native/simulator/libVibration.so" arch="simulator" />
         <config-file target="www/config.xml" parent="/widget">

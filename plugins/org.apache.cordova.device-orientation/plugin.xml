@@ -103,7 +103,7 @@
         <config-file target="www/config.xml" parent="/widget">
             <feature name="Compass" value="Compass" />
         </config-file>
-        <source-file src="src/blackberry10/index.js" target-dir="Compass" />
+        <source-file src="src/blackberry10/app.js" target-dir="Compass" />
     </platform>
 
     <!-- ios -->

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!--  WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/scaling.css" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>dscovr.me - 5.html</title>
+    <script>
+        function showMenu() {
+            $( ".overlay-bg-menu" ).toggle( "slide", function() {
+              // Animation complete.
+            });
+        }
+    </script>
+</head>
+<body>
+<div class="overlay-bg-menu">
+    <div class="menu">
+        <ul>
+            <li>
+                <a class="left " href="shops.html"><img src="img/menu-list-view.png" /> LIST View </a>
+            </li>
+            <li>
+                <a class="left " href="maps.html"><img src="img/menu-map-view.png" /> MAP View </a>
+            </li>
+            <li>
+                <a class="left " href="category.html"><img src="img/menu-change-filters.png" /> Change Filters </a>
+            </li>
+            <li>
+                <a class="left " href="#"><img src="img/menu-give-feedback.png" /> Give Feedback</a>
+            </li>
+            <li>
+                <a class="left " href="#"><img src="img/menu-ads.png" /> Adspaces Platform</a>
+            </li>
+            <li>
+                <a class="left " href="#"><img src="img/menu-quit.png" /> Quit Session</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="list-shops">
+    <header id="page-header-2">
+        <div class="container-2">
+            <!--<a href="6.html">-->
+            <a href="javascript::void()" onclick="showMenu()">
+                <img src="img/3-dots.png" class="left-pad" alt="header" />
+            </a>
+        </div>
+    </header>
+    <div id="wrap-container" class="container-2">
+        <div id="wrap-list" >
+            <div id="content-container">
+            </div>
+        </div>
+    </div>
+    <footer id="page-footer-4">
+        <div class="container clearfix">
+            <figure class="footer-logo">
+                <img src="img/footer_background_with_shape.png" alt="footer" />
+            </figure>
+            <div id="footer-meta-inner">
+                <div id="footer-inner">
+                    <a href="#left"><img src="img/left-arrow.png" alt="left arrow" class="left left-arrow" /></a>
+                    <a href="#right"><img src="img/right-arrow.png" alt="right arrow" class="right right-arrow" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery-2.1.3.js"></script>
+     <script type="text/javascript">
+        $(document).bind("mobileinit", function(){
+          $.mobile.autoInitializePage = false;
+        });
+    </script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,1749 @@
+/* Media Queries */
+@charset "utf-8";
+
+@media screen and (min-width: 1910px) and (max-width: 1935px){
+    body {
+    -webkit-touch-callout: none;               //  prevent callout to copy image, etc when tap to hold 
+    -webkit-text-size-adjust: none;             // prevent webkit from resizing text to fit 
+    -webkit-user-select: none;                  // prevent copy paste, to allow, change 'none' to 'text' 
+    background:#ffffff;
+    font-size: 13px;
+    color: #666666;
+    font-family: Arial, helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background: url("../img/bg-big.png") no-repeat center #F2A905;
+
+}
+    /*#page-header {display:none;}*/
+    #home #page-footer {
+        margin-top: -450px;
+    }
+    #display-list .icon-small {
+        height: auto;
+        margin-left: 50px;
+        margin-top: 5px;
+        max-width: 38px;
+        vertical-align: middle;
+    }
+    .container-2{
+        margin: 0 auto; 
+        max-width: 640px; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+        text-align: left; 
+        display: block;
+
+    }
+    .container{
+        max-width: 100%;
+    }
+    #home #wrap {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    
+    #display-list .container-2 {
+        display: block;
+        margin: 0 auto;
+        max-width: 557px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    #display-list .icon-small {
+        height: auto;
+        margin-left: 58px;
+        margin-top: 10px;
+        max-width: 38px;
+        vertical-align: middle;
+    }
+
+    #display-list .left-pad {
+        padding-left: 0px;
+    }
+
+    #display-list #page-footer-2 {
+        margin-top: -310px;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1280px) {
+
+        #list-shops #wrap-list {
+            min-height: 100%;
+        }
+        #list-shops .list-box, #display-list .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            max-height: 79px;
+            width: 93%;
+        }
+        #list-shops .list-right-holder, 
+        #display-list .list-right-holder {
+            width: 45%;
+        }
+
+        #list-shops .list-img,
+        #display-list .list-img {
+            min-height: 0;
+        }
+        #list-shops .list-img ,
+        #display-list .list-img {
+            display: block;
+            margin: 0;
+            max-height: 80px;
+            min-height: 55px;
+            padding: 2%;
+            position: relative;
+            text-align: left;
+            vertical-align: middle;
+            width: auto;
+        }
+        #display-list .list-img img,        #list-shops .list-img img {
+            max-width: 75%;
+        }
+
+        
+        #display-list .list-box-advert {
+            height: 240px;
+        }
+        #display-list .list-right-holder-advert {
+            height: 47%;
+        }
+        #display-list .title-shop-advert {
+            height: auto;
+            padding-left: 22px;
+            padding-top: 0px;
+            width: 100%;
+        }
+        #display-list .title-shop-advert h1 {
+            font-size: 14px;
+        }
+        #display-list .list-box h1 {
+            font-size: 14px;
+        }
+        #list-shops .list-right-holder ,
+        #display-list .list-right-holder {
+            width: 64%;
+        }
+
+        #list-shops .list-box .title-shop ,
+        #display-list .list-box .title-shop {
+            font-size: 14px;
+            max-height: 24px;
+        }
+        .title-shop {
+            height: 29px;
+            margin: 0;
+            padding: 0;
+        }
+
+        #list-shops .list-box .list-description ,
+        #display-list .list-box .list-description {
+            color: #65676b;
+            font-size: 13px;
+            max-height: 34px;
+            overflow: hidden;
+        }
+
+        .list-description-icon {
+            margin: auto;
+            min-height: 80px;
+            padding-top: 2%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        #list-shops .list-box .list-description-icon img {
+            max-width: 70%;
+        }
+        #list-shops .list-box h1 {
+            font-size: 14px;
+        }
+        #display-list .check-map-btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100%;
+            width: 242px;
+        }        
+        #display-list .middle, #display-list .middle-globe {
+            height: 100%;
+            margin: auto;
+            padding-left: 10px;
+            padding-top: 0;
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+        }
+                #display-list 
+        .middle-arrows {
+            display: block;
+            height: 100%;
+            margin: auto;
+            max-height: 100%;
+            padding-top: 0px;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+        }
+        #display-list .middle h1{
+            font-size: 17px;
+        }
+        #display-list .middle {
+            padding-top: 14px;
+        }
+        #display-list #wrap{
+            padding-top: 0px;
+        }
+        #display-list #page-header-2 .container-2 a{
+            margin-left: -21px;
+        }
+        
+        #display-list .list-advert-btns {
+            float: left;
+            height: 60px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            max-height: 60px;
+            width: 93%;
+        }
+         #display-list .icon-small {
+            height: auto;
+            margin-left: 50px;
+            margin-top: 5px;
+            max-width: 30px;
+            vertical-align: middle;
+        }
+        .container {max-width: 1024px;}
+        #wrap {
+            padding-bottom: 0px;
+            padding-top: 0px;
+        }
+        body {
+            background: url("../img/bg-1024.png") no-repeat scroll center center #f2a905;
+            color: #666666;
+            font-family: Arial,helvetica,sans-serif;
+            font-size: 13px;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        #map .footer-logo img {
+            margin-top: 134px;
+            position: relative;
+            width: 1024px;
+            max-height: 20%;
+            z-index: 1000008;
+        }
+        .overlay-bg-menu {
+            background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+            display: block;
+            height: 100%;
+            left: 0;
+            margin: auto auto auto 0;
+            max-width: 50px;
+            min-width: 50px;
+            position: fixed;
+            text-align: center;
+            top: 0;
+            z-index: 2147483647;
+        }
+        
+        .menu {
+            display: block;
+            height: 100%;
+            margin: auto auto 50%;
+            padding-top: 30%;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+            z-index: 2147483647;
+        }
+}
+@media screen and (max-width: 1023px) {
+    
+        body {
+            -webkit-touch-callout: none;               //  prevent callout to copy image, etc when tap to hold 
+            -webkit-text-size-adjust: none;             // prevent webkit from resizing text to fit 
+            -webkit-user-select: none;                  // prevent copy paste, to allow, change 'none' to 'text' 
+            background:#ffffff;
+            font-size: 13px;
+            color: #666666;
+            font-family: Arial, helvetica, sans-serif;
+            margin:0;
+            padding:0;
+            width:100%;
+            height:100%;
+            background: url("../img/bg-big.png") no-repeat center #F2A905;
+        }
+        #logo{
+            display: block;
+            float: none;
+            margin: auto;
+            padding-top: 55%;
+            text-align: center;
+            width: 50%;
+        }
+	dt { width: 33%; }
+	.pager { font-size: 15px; padding: 14px 30px 15px; }
+	.item-list { margin: 0 0 40px; }
+	.controls { font-size: 12px; }
+	.controls .center { clear: both; text-align: left; }
+	#wrap-container { background: none; }
+        #page-footer { margin-top: -949px; }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 53px;
+            margin-top: 5px;
+            max-width: 41px;
+            vertical-align: middle;
+        }
+       
+}
+
+@media screen and (max-width: 980px) {
+        body{overflow: hidden;}
+	dt { float: none; }
+	#wrap { padding-bottom: 352px; }
+        #wrap-list {padding-bottom: 684px; }
+        #content-container{ padding-top: 60px;}
+        #logo{
+            display: block;
+            float: none;
+            margin: auto;
+            padding-top: 40%;
+            text-align: center;
+            width: 50%;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -20px;
+        }
+        .filters select { width: 100%; }
+        .pager { font-size: 13px; padding: 15px; margin: 0 0 20px; }
+        .item-list { margin: 0 0 40px; }
+        #wrap-container { background: none; }
+        #page-footer { margin-top: -901px; }
+        .left-pad {
+            padding-left: 15px;
+            padding-top: 60px;
+        }
+        .icon-small {
+            height: auto;
+            margin-left: 36px;
+            margin-top: 65px;
+            max-width: 60px;
+            vertical-align: middle;
+        }
+        #page-footer-2 {
+            margin-top: -370px;
+        }
+        #footer-inner {
+            margin-top: -74px;
+        }
+        .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 34px;
+            max-height: 100px;
+            width: 93%;
+        }
+        .black-hover #page-footer-2{ margin-top: -360px !important;  }
+        #list-shops  #wrap-list {
+            padding-bottom: 314px;
+        }
+        #display-list #content-container {
+            padding-top: 0px;
+        }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 36px;
+            margin-top: 64px;
+            max-width: 60px;
+            vertical-align: middle;
+        }
+        #list-shops #page-footer-4{
+            margin-top: 60px;
+        }
+        #list-shops a img, #list-shops a{
+            margin-left: 0px;
+            padding: 0;
+        }
+}
+
+@media screen and (max-width: 800px) {
+        body{overflow: hidden;}
+	dt { float: none; }
+	#wrap { padding-bottom: 352px; }
+        #wrap-list {
+            padding-bottom: 504px;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -20px;
+        }
+        .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            max-height: 100px;
+            width: 93%;
+        }
+        .black-hover #page-footer-2{ margin-top: -360px !important;  }
+        #logo{
+            display: block;
+            float: none;
+            margin: auto;
+            padding-top: 40%;
+            text-align: center;
+            width: 50%;
+        }
+        .filters select { width: 100%; }
+        .pager { font-size: 13px; padding: 15px; margin: 0 0 20px; }
+        .item-list { margin: 0 0 40px; }
+        #wrap-container { background: none; }
+        #page-footer { margin-top: -829px; }
+        .left-pad {
+            padding-left: 15px;
+            padding-top: 50px;
+        }
+        .icon-small {
+            height: auto;
+            margin-left: 36px;
+            margin-top: 80px;
+            max-width: 60px;
+            vertical-align: middle;
+        }
+        #page-footer-2 {
+            margin-top: -360px;
+        }
+        #footer-inner {
+            margin-top: -74px;
+        }
+        #page-footer-4 {
+            margin-top: -104px;
+        }
+        .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 40px;
+            max-height: 100px;
+            width: 93%;
+        }
+        .black-hover #wrap{  padding-bottom: 272px;}
+        #list-shops #wrap-list {
+            padding-bottom: 404px;
+        }
+        #list-shops #wrap-container{
+            margin-bottom: -114px;
+        }
+}
+
+@media screen and (max-width: 768px) {
+        body{overflow: hidden;}
+	dt { float: none; }
+	#wrap { padding-bottom: 352px; }
+        #logo{
+            display: block;
+            float: none;
+            margin: auto;
+            padding-top: 40%;
+            text-align: center;
+            width: 50%;
+        }
+        .filters select { width: 100%; }
+        .pager { font-size: 13px; padding: 15px; margin: 0 0 20px; }
+        .item-list { margin: 0 0 40px; }
+        #wrap-container { background: none; }
+        #page-footer { margin-top: -816px; }
+        .icon-small {
+            height: auto;
+            margin-left: 36px;
+            margin-top: 47px;
+            max-width: 60px;
+            vertical-align: middle;
+        }
+        #footer-inner {
+            margin-top: -73px;
+        }
+        .black-hover #wrap {
+            padding-bottom: 213px;
+        }
+        #display-list  #content-container {
+            padding-top: 0px;
+        }
+        #display-list  #wrap {
+            padding-bottom: 300px;
+            padding-top: 17px;
+        }
+        #list-shops #wrap-list {
+            padding-bottom: 148px;
+        }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 41px;
+            margin-top: 44px;
+            max-width: 54px;
+            vertical-align: middle;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -20px;
+        }
+}
+
+@media screen and (max-width: 640px) {
+    .left-pad {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+    body{overflow: hidden;background: url("../img/bg-640.png") no-repeat center #F2A905;}
+    #home #content { margin: 0; }
+    #home #wrap { padding-bottom: 342px; }
+    #logo{
+        display: block;
+        float: none;
+        margin: auto;
+        padding-top: 25%;
+        text-align: center;
+        width: 50%;
+    }
+    #content-container {
+        padding-top: 0;
+    }
+    #page-footer { height: 415px; margin-top: -659px; }
+    #home #page-footer {
+        height: 415px;
+        margin-top: -715px;
+    }
+    #page-footer-2{
+        margin-top: -338px;
+    }
+   #list-shops #page-footer-4 {
+        margin-top: 274px ;
+    }
+    .icon-small {
+        height: auto;
+        margin-left: 35px;
+        margin-top: 40px;
+        max-width: 60px;
+    }
+    #page-footer .container .footer-logo img, #page-footer-2 .container .footer-logo img,#list-shops #page-footer-4 .container .footer-logo img{
+        min-width: 640px;
+    }
+    #display-list #wrap {
+        padding-bottom: 162px;
+        padding-top: 0px;
+    }
+
+    #display-list .icon-small {
+        height: auto;
+        margin-left: 49px;
+        margin-top: 11px;
+        max-width: 49px;
+        vertical-align: middle;
+    }
+    #list-shops .list-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 7px;
+        max-height: 100px;
+        width: 93%;
+    }
+    #list-shops #wrap-list {
+        padding-bottom: 16px;
+    }
+
+    #list-shops #wrap-container {
+        margin-bottom: 0px;
+    }
+    
+    #list-shops #page-footer-4 {
+        margin-top: 160px;
+    }
+}
+//4 & 4S
+@media screen and (max-width: 640px) and (max-height: 960px) {
+    .left-pad {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+    body{overflow: hidden;background: url("../img/bg-640.png") no-repeat center #F2A905;}
+    #home #content { margin: 0; }
+    #home #wrap { padding-bottom: 342px; }
+    #logo{
+        display: block;
+        float: none;
+        margin: auto;
+        padding-top: 25%;
+        text-align: center;
+        width: 50%;
+    }
+    #content-container {
+        padding-top: 0;
+    }
+    #page-footer { height: 415px; margin-top: -659px; }
+    #home #page-footer {
+        height: 415px;
+        margin-top: -715px;
+    }
+    #page-footer-2{
+        margin-top: -338px;
+    }
+   #list-shops #page-footer-4 {
+        margin-top: 274px ;
+    }
+    .icon-small {
+        height: auto;
+        margin-left: 35px;
+        margin-top: 40px;
+        max-width: 60px;
+    }
+    #page-footer .container .footer-logo img, #page-footer-2 .container .footer-logo img,#list-shops #page-footer-4 .container .footer-logo img{
+        min-width: 640px;
+    }
+    #display-list #wrap {
+        padding-bottom: 162px;
+        padding-top: 0px;
+    }
+
+    #display-list .icon-small {
+        height: auto;
+        margin-left: 49px;
+        margin-top: 11px;
+        max-width: 49px;
+        vertical-align: middle;
+    }
+    #list-shops .list-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 7px;
+        max-height: 100px;
+        width: 93%;
+    }
+    #list-shops #wrap-list {
+        padding-bottom: 16px;
+    }
+
+    #list-shops #wrap-container {
+        margin-bottom: 0px;
+    }
+    
+    #list-shops #page-footer-4 {
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+        body{overflow: hidden;}
+	#wrap { padding-bottom: 455px; }
+	.container {text-align: center;}
+	#page-header { height: 350px; }
+	#page-header .container { padding: 40px; text-align: center;}
+	#page-header .container-2 { padding: 10px;}
+        #logo{
+            display: block;
+            float: none;
+            margin: auto;
+            padding-top: 53%;
+            text-align: center;
+            width: 50%;
+        }
+	#header-meta { left: 10px; right: 10px; top: 8px; }
+	#page-footer { height: 415px; margin-top: -448px; }
+        #home #page-footer {
+            height: 390px;
+            margin-top: -517px;
+        }
+
+        #home #page-footer {
+            height: 150px;
+            margin-top: -498px;
+        }
+	#page-footer .container { height: 415px; text-align: center;}
+	#page-footer .column { float: none; width: auto; padding-left: 0; padding-right: 0 !important; }
+	#page-footer h3 { margin: 0 0 20px; }
+	#footer-meta { clear: both; position: static; margin: 6px 0 0; }
+	#home #wrap { padding-bottom: 415px; }
+        .left-pad{
+            padding: 0px;
+        }
+        .container-2{padding: 0px;
+            
+        }
+        .icon-small {
+            height: auto;
+            margin-left: 22px;
+            margin-top: 3px;
+            max-width: 36px;
+            vertical-align: middle;
+        }
+        #page-footer-2 {margin-top: -434px;}
+        #footer-inner {
+            margin-top: -45px;
+        }
+        .left-arrow{
+            margin-left:13%;
+            max-width: 33px;
+        }
+        .right-arrow{
+            margin-right:13%;
+            max-width: 33px;
+        }
+        .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            max-height: 80px;
+            width: 88%;
+        }
+        .list-right-holder {
+            width: 51%;
+        }
+        .list-description-icon {
+            margin: auto;
+            min-height: 80px;
+            padding-top: 2%;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .list-img {
+            display: block;
+            max-height: 80px;
+            padding-top: 2%;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+            margin: 0;
+        }
+        .list-img img{
+            max-width: 82%;
+        }
+        .list-description {
+            color: #65676b;
+            max-height: 34px;
+            overflow: hidden;
+        }
+        .black-hover .left-acc, .right-decline {
+            display: block;
+            margin: 0;
+            max-width: 40%;
+            padding: 0;
+            position: relative;
+            z-index: 999999999;
+        }
+        .black-hover #page-footer-2 {
+            margin-top: -222px !important;
+        }
+        .black-hover #wrap {
+            padding-bottom: 186px;
+        }
+        #display-list #wrap {
+            padding-bottom: 455px;
+            padding-top: 17px;
+        }
+        #list-shops .list-right-holder{
+            width: 48%;
+        }
+        #list-shops .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            max-height: 56px;
+            width: 88%;
+        }
+        #list-shops .list-img {
+            display: block;
+            margin: 0;
+            max-height: 80px;
+            padding: 2%;
+            position: relative;
+            text-align: left;
+            vertical-align: middle;
+            width: auto;
+            min-height: 55px;
+        }
+        #list-shops .list-img img {
+            max-width: 56%;
+        } 
+        #list-shops .list-box h1{font-size: 14px;}
+        #list-shops .list-box .title-shop {
+            font-size: 14px;
+            max-height: 24px;
+        }
+        #list-shops .list-box .list-description {
+            color: #65676b;
+            font-size: 13px;
+            max-height: 34px;
+            overflow: hidden;
+        }
+        #list-shops .list-box .list-description-icon img{
+            max-width: 70%;
+        }
+        
+        #list-shops #wrap-list {
+            padding-bottom: 233px;
+        }
+        #list-shops .list-right-holder {
+            width: 45%;
+        }
+        #list-shops #wrap-list {
+            padding-bottom: 233px;
+        }
+        .list-img-advert img {
+            max-width: 64%;
+        }
+        .list-box-advert {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 182px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            max-height: 300px;
+            width: 88%;
+            overflow: hidden;
+        }
+        .title-shop-advert h1 {
+            color: #286885;
+            font-size: 12px;
+        }
+        .list-description-advert {
+            font-size: 11px;
+            padding: 10px;
+        }
+        .title-shop-advert {
+            height: 15%;
+            padding-left: 22px;
+            padding-top: 0;
+            width: 100%;
+        }
+        .list-advert-btns {
+            float: left;
+            height: 47px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            max-height: 100px;
+            width: 93%;
+        }
+        
+        .check-map-btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100%;
+            width: 131px;
+        }
+        .arrows-map-btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100%;
+            margin-left: 12px;
+            width: 64px;
+        }
+        .middle-globe img, .middle-arrows img{
+            max-width: 70%;
+        }
+        .middle, .middle-globe {
+            height: 100%;
+            margin: auto;
+            padding-left: 0;
+            padding-top: 2px;
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+        }
+        
+        .middle {
+            padding-top: 7px;
+        }
+        .list-box h1, .list-box-advert h1, .check-map-btn h1 {
+            color: #286885;
+            font-size: 11px;
+        }
+        .middle-arrows {
+            display: block;
+            height: 100%;
+            margin: auto;
+            max-height: 100%;
+            padding-top: 1px;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+        }
+        .list-description-icon img{
+            max-width: 80%;
+            padding-top: 9px;
+        }
+        .list-description {
+            color: #65676b;
+            font-size: 10px;
+            max-height: 44px;
+            overflow: hidden;
+        }
+        .title-shop {
+            height: 29px;
+            margin: 0;
+            padding: 0;
+        }
+        .list-img-advert img {
+            max-width: 57%;
+        }
+        .list-box{
+            margin-top: 0px;
+        }
+        .list-right-holder {
+            width: 49%;
+        }
+        #display-list #wrap {
+            margin-top: -28px;
+            padding-bottom: 452px;
+        }
+        #display-list #page-header-2 .container-2 a img, #display-list #page-header-2 .container-2 img{
+            width:  15%;
+            margin-left: 7px;
+        }
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 27px;
+            margin-top: 16px;
+            max-width: 31px;
+            vertical-align: middle;
+        }
+        #list-shops .list-img{
+            min-height: 0;
+            max-height: 30;
+        }
+        
+        #page-footer .container .footer-logo img, #page-footer-2 .container .footer-logo img, #list-shops #page-footer-4 .container .footer-logo img {
+            min-width: 0;
+        }
+        #map #page-footer {
+            height: 415px;
+            margin-top: -563px;
+            z-index: 999995;
+            position: relative;
+        }
+        #map #wrap {
+            padding-top: 0px;
+        }
+}
+
+@media screen and (max-width: 320px){ 
+    #list-shops #page-footer-4 {
+        margin-top: 0px;
+    }
+    #list-shops #wrap-container {
+        margin-bottom: -245px;
+    }
+    
+    #display-list .list-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        max-height: 60px;
+        width: 88%;
+    }
+
+    #display-list .list-img {
+        margin: 0 0 0 -10px;
+    }
+    #display-list .list-description-icon img {
+        max-width: 69%;
+        padding-top: 0px;
+    }
+    #display-list .list-img img {
+        max-width: 60%;
+    }
+    #display-list #page-header-2 .container-2 a {
+        margin-left: -8px;
+    }
+    #display-list #wrap {
+        margin-top: -28px;
+        padding-bottom: 405px;
+    }
+    #display-list #page-footer-2 {
+        /*margin-top: -392px;*/
+        margin-top: -304px;
+    }
+    #display-list #page-footer-2 {
+        /*margin-top: -346px;*/
+    }
+    #list-shops #page-footer-4 {
+        margin-top: 88px;
+    }
+    #map #page-footer {
+        height: 415px;
+        margin-top: -563px;
+        z-index: 999995;
+        position: relative;
+    }
+    #map #map-canvas {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 138.25%;
+        padding-top: 0px;
+        position: relative;
+        z-index: 899999;
+        transform: translateZ(0px);
+        background-color: rgb(229, 227, 223);
+    }
+}
+@media screen and (max-width: 320px) and (min-height: 480px){
+    #list-shops #page-footer-4 {
+        margin-top: 0px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -393px;
+    }
+    #display-list #wrap {
+        margin-top: -28px;
+        padding-bottom: 363px;
+    }
+    .menu {
+        display: block;
+        height: 100%;
+        margin: auto;
+        margin-bottom: 50%;
+        padding-top: 13%;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .menu ul {
+        padding-left: 10px;
+    }
+    .menu li a img {
+        width: 30px;
+    }
+    .overlay-bg-menu {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+        display: block;
+        height: 100%;
+        left: 0;
+        margin: auto auto auto 0;
+        max-width: 198px;
+        min-width: 164px;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        z-index: 999998;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding-top: 35px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -350px;
+    }
+    #page-footer-2 {
+        margin-top: -529px;
+    }
+}
+@media screen and (max-width: 320px) and (min-height: 568px){
+    #map #map-canvas {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 165.25%;
+        padding-top: 0px;
+        position: relative;
+        z-index: 899999;
+        transform: translateZ(0px);
+        background-color: rgb(229, 227, 223);
+    }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #list-shops #page-footer-4 {
+        margin-top: 88px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -262px;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    #display-single #page-footer-2 {
+        margin-top: -441px;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-height: 667px){
+    #map #map-canvas {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 160%;
+        padding-top: 0px;
+        position: relative;
+        z-index: 899999;
+        transform: translateZ(0px);
+        background-color: rgb(229, 227, 223);
+    }
+    #list-shops #page-footer-4 {
+        margin-top: -84px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -238px;
+    }
+    .check-map-btn {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100%;
+        width: 177px;
+    }
+    #home #page-footer {
+        height: 150px;
+        margin-top: -501px;
+    }
+    .overlay-bg-menu {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+        display: block;
+        height: 100%;
+        left: 0;
+        margin: auto auto auto 0;
+        max-width: 50px;
+        min-width: 217px;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        z-index: 999998;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+    #list-shops #page-footer-4 {
+        margin-top: -83px;
+    }
+    #page-footer-2 {
+        margin-top: -367px;
+    }
+    #home #page-footer {
+        height: 150px;
+        margin-top: -500px;
+    }
+    #map #page-footer {
+        height: 415px;
+        margin-top: -561px;
+        z-index: 999995;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 414px) and (min-height: 736px){
+    #map #map-canvas {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 157%;
+        padding-top: 0px;
+        position: relative;
+        z-index: 899999;
+        transform: translateZ(0px);
+        background-color: rgb(229, 227, 223);
+    }
+    #list-shops #page-footer-4 {
+        margin-top: -34px;
+    } 
+    .check-map-btn {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100%;
+        width: 211px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -289px;
+    }
+    #home #page-footer {
+        height: 150px;
+        margin-top: -502px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -255px;
+    }
+    .overlay-bg-menu {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+        display: block;
+        height: 100%;
+        left: 0;
+        margin: auto auto auto 0;
+        max-width: 50px;
+        min-width: 217px;
+        position: fixed;
+        text-align: center;
+        top: 0;
+        z-index: 999998;
+    }
+    .menu li a {
+        text-decoration: none;
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #list-shops #page-footer-4 {
+        margin-top: -83px;
+    }
+    #page-footer-2 {
+        margin-top: -367px;
+    }
+    #home #page-footer {
+        height: 150px;
+        margin-top: -500px;
+    }
+    #display-list #page-footer-2 {
+        margin-top: -253px;
+    }
+    #list-shops #page-footer-4 {
+        margin-top: -32px;
+    }
+    #page-footer-2 {
+        margin-top: -316px;
+    }
+    #display-list #content-container {
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #display-list .icon-small {
+        height: auto;
+        margin-left: 27px;
+        margin-top: 28px;
+        max-width: 31px;
+        vertical-align: middle;
+    }
+    #display-list #page-header-2 .container-2 a {
+        margin-left: 15px;
+    }
+    #map #page-footer {
+        height: 415px;
+        margin-top: -574px;
+        z-index: 999995;
+        position: relative;
+    }
+    #map #map-canvas {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 161%;
+        padding-top: 0px;
+        position: relative;
+        z-index: 899999;
+        transform: translateZ(0px);
+        background-color: rgb(229, 227, 223);
+    }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 768px){
+    #map #map-canvas {
+        height: 0px;
+        overflow: hidden;
+        padding-bottom: 67%;
+        padding-top: 0px;
+        position: relative;
+        z-index: 899999;
+        transform: translateZ(0px);
+        background-color: rgb(229, 227, 223);
+    }
+    #map .footer-logo img {
+        margin-top: 295px;
+        position: relative;
+        width: 1024px;
+        max-height: 50px;
+        z-index: 1000008;
+        min-height: 279px;
+    }
+    .container-2 {
+        margin: 0 auto;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+        display: block;
+    }
+    #display-list #wrap {
+        padding-top: 0px;
+        padding: 0px;
+    }
+    #display-list .icon-small {
+        height: auto;
+        margin-left: 116px;
+        margin-top: 29px;
+        max-width: 51px;
+        vertical-align: middle;
+    }
+    .footer-logo img {
+        min-width: 1024px;
+        margin-top: 1px;
+        position: relative;
+        max-height: 105px;
+        z-index: 999995;
+        min-height: 193px;
+    }
+    .left-pad {
+        padding-left: 100px;
+    }
+    .container-2 {
+        margin: 0 auto;
+        max-width: 100%;
+        padding-left: 50px;
+        padding-right: 40px;
+        text-align: left;
+        display: block;
+    }
+    #list-shops .list-box, #display-list .list-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 15px;
+        max-height: 96px;
+        width: 93%;
+    }
+    #list-shops .list-box .list-description, #display-list .list-box .list-description {
+        color: #65676b;
+        font-size: 16px;
+        max-height: 56px;
+        overflow: hidden;
+    }
+    #list-shops .list-box h1 {
+        font-size: 17px;
+    }
+    #list-shops .list-right-holder, #display-list .list-right-holder {
+        width: 77%;
+    }
+    #list-shops #page-footer-4 {
+        margin-top: 69px;
+    }
+    
+    #display-single .list-box {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        max-height: 100px;
+        width: 93%;
+        min-height: 115px;
+    }
+    #display-single .list-description {
+        color: #65676b;
+        max-height: 71px;
+        overflow: hidden;
+        font-size: 20px;
+    }
+    #display-single .list-right-holder {
+        width: 74%;
+    }
+    #display-single .list-description-icon {
+        margin: auto;
+        min-height: 80px;
+        padding-top: 3%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #display-single .list-img-advert {
+        padding-left: 25px;
+    }
+    #display-single .list-img-advert img {
+        min-width: 819px;
+    }
+    #display-single #page-footer-2 {
+        margin-top: -255px;
+    }
+    #display-single .check-map-btn {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100%;
+        width: 547px;
+    }
+    #display-single .arrows-map-btn {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #286885;
+        float: left;
+        height: 100%;
+        margin-left: 12px;
+        width: 148px;
+    }
+    #display-single .middle-globe {
+        height: 100%;
+        margin: auto;
+        vertical-align: middle;
+        text-align: center;
+        width: auto;
+        padding-left: 74px;
+        padding-top: 19px;
+    }
+    #display-single .left-pad {
+        padding-left: 0px;
+    }
+    #home #page-footer {height: 226px;margin-top: -640px;}
+    #home .footer-logo img {
+        min-width: 1024px;
+        margin-top: 1px;
+        position: relative;
+        max-height: 105px;
+        z-index: 999995;
+        min-height: 227px;
+    }
+    #display-list .container-2 {
+        margin: 0 auto;
+        max-width: 100%;
+        padding-left: 0px;
+        padding-right: 40px;
+        text-align: left;
+        display: block;
+    }
+    .left-acc, .right-decline {
+        padding: 0px;
+        margin: 0;
+        position: relative;
+        display: block;
+        z-index: 999999999;
+        width: 21%;
+    }
+    #list-shops .text {font-size: 30px;}
+}
+
+@media screen and (min-width: 341px) and (max-width: 360px){
+        body{overflow: hidden;}
+       .left-pad{
+            padding: 0px;
+        }
+        .container-2{
+            padding: 0px;
+        }
+        .icon-small {
+            height: auto;
+            margin-left: 27px;
+            margin-top: 25px;
+            max-width: 38px;
+            vertical-align: middle;
+        }
+        #page-footer-2 {margin-top: -434px;}
+        .left-arrow {
+            margin-left: 12%;
+            max-width: 37px;
+        }
+        .right-arrow {
+            margin-left: 12%;
+            max-width: 37px;
+        }
+        
+        #footer-inner {
+            margin-top: -53px;
+        }
+        #footer-inner {
+            margin-top: -45px;
+        }
+        
+        .left-arrow{
+            margin-left:13%;
+            max-width: 33px;
+        }
+        .right-arrow{
+            margin-right:13%;
+            max-width: 33px;
+        }
+        .list-box {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 15px;
+            max-height: 80px;
+            width: 88%;
+        }
+        .list-right-holder {
+            width: 51%;
+        }
+        .list-description-icon {
+            margin: auto;
+            min-height: 80px;
+            padding-top: 2%;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .list-img {
+            display: block;
+            max-height: 80px;
+            padding-top: 2%;
+            position: relative;
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+            margin: 0;
+        }
+        .list-img img{
+            max-width: 82%;
+        }
+        .list-description {
+            color: #65676b;
+            max-height: 34px;
+            overflow: hidden;
+        }
+        #wrap-list {
+            padding-bottom: 467px;
+        }
+        .black-hover .left-acc, .right-decline {
+            display: block;
+            margin: 0;
+            max-width: 40%;
+            padding: 0;
+            position: relative;
+            z-index: 999999999;
+        }
+        .black-hover #page-footer-2 {
+            margin-top: -260px !important;
+        }
+        .black-hover #footer-inner {
+            margin-top: -45px;
+        }
+        .black-hover .left-arrow {
+            margin-left: 13%;
+            margin-top: -13px;
+            max-width: 33px;
+        }
+        .black-hover .right-arrow {
+            margin-right: 13%;
+            max-width: 33px;
+            margin-top: -13px;
+            padding-bottom: 13px;
+        }
+        .black-hover #wrap {
+            padding-bottom: 213px;
+        }
+        #display-list #wrap {
+            padding-bottom: 452px;
+            padding-top: 17px;
+            margin-top: 0px;
+        }
+    
+        .list-img-advert img {
+            max-width: 64%;
+        }
+        .list-box-advert {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 200px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            max-height: 300px;
+            width: 88%;
+        }
+        .title-shop-advert h1 {
+            color: #286885;
+            font-size: 12px;
+        }
+        .list-description-advert {
+            font-size: 11px;
+            padding: 10px;
+        }
+        .title-shop-advert {
+            height: 15%;
+            padding-left: 22px;
+            padding-top: 0;
+            width: 100%;
+        }
+        .list-advert-btns {
+            float: left;
+            height: 65px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            max-height: 100px;
+            width: 93%;
+        }
+        .check-map-btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100%;
+            width: 157px;
+        }
+        .arrows-map-btn {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #286885;
+            float: left;
+            height: 100%;
+            margin-left: 12px;
+            width: 68px;
+        }
+        .middle-globe img, .middle-arrows img{
+            max-width: 70%;
+        }
+        .middle, .middle-globe {
+            height: 100%;
+            margin: auto;
+            padding-left: 0;
+            padding-top: 12px;
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+        }
+        .middle{
+            padding-top: 15px;
+        }
+        .list-box h1, .list-box-advert h1, .check-map-btn h1 {
+            color: #286885;
+            font-size: 13px;
+        }
+        .middle-arrows {
+            display: block;
+            height: 100%;
+            margin: auto;
+            max-height: 100%;
+            padding-top: 9px;
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+        }
+        .list-description-icon img{
+            max-width: 80%;
+            padding-top: 9px;
+        }
+        .list-description {
+            color: #65676b;
+            font-size: 10px;
+            max-height: 44px;
+            overflow: hidden;
+        }
+        .title-shop {
+            height: 29px;
+            margin: 0;
+            padding: 0;
+        }
+     
+        #home #page-footer {
+            height: 150px;
+            margin-top: -498px;
+        }
+        
+        
+        #display-list .icon-small {
+            height: auto;
+            margin-left: 29px;
+            margin-top: 30px;
+            max-width: 37px;
+            vertical-align: middle;
+        }
+        #display-list #page-header-2 .container-2 a img, #display-list #page-header-2 .container-2 img{
+            width:  15%;
+            margin-left: 7px;
+        }
+         #display-list #wrap {
+            margin-top: 0;
+            padding-bottom: 452px;
+            padding-top: 0px;
+        }
+        #list-shops #wrap-list {
+            padding-bottom: 183px;
+        }
+        #display-list #wrap {
+            margin-top: 0;
+            padding-bottom: 473px;
+            padding-top: 0;
+        }
+        #display-list #page-header-2 .container-2 a {
+            margin-left: -8px;
+        }
+        
+}
+
+@media print {
+  * { background: transparent !important; color: #444 !important; text-shadow: none !important; }
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a:after { content: " (" attr(href) ")"; } 
+  abbr:after { content: " (" attr(title) ")"; }
+  .ir a:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }  
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
+
+/* 
+ *  ----------------------------------------------------------------------------------- HACKS
+ */
+ 
+/* Webkit hack */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+/* media query for most mobile devices */
+@media only screen and (min-width: 0px) and (max-width: 480px){
+ 
+    .overlay-content {
+        width: 96%;
+        margin: 0 2%;
+        left: 0;
+    }
+}

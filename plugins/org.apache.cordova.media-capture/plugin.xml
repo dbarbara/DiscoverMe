@@ -138,7 +138,7 @@ xmlns:rim="http://www.blackberry.com/ns/widgets"
 
     <!-- blackberry10 -->
     <platform name="blackberry10">
-        <source-file src="src/blackberry10/index.js" target-dir="Capture" />
+        <source-file src="src/blackberry10/app.js" target-dir="Capture" />
         <config-file target="www/config.xml" parent="/widget">
             <feature name="media-capture" value="Capture"/>
         </config-file>

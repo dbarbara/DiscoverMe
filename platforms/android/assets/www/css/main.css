@@ -95,7 +95,7 @@ img { vertical-align: middle; max-width: 100%; height: auto; }
  */
 a, a:active { color: #0060c4; text-decoration: none; overflow: hidden; outline: none; }
 a:hover, a:focus { text-decoration: underline; color: #0060c4; }
-a:link { -webkit-tap-highlight-color: #FF5E99; } 
+a:link { /*-webkit-tap-highlight-color: #FF5E99;*/ -webkit-tap-highlight-color: rgba(0,0,0,0); } 
 
 /* 
  * Text Selection
@@ -110,19 +110,20 @@ a:link { -webkit-tap-highlight-color: #FF5E99; }
 body { font: 14px/20px sans-serif; color: #000; background: #fff; }*/
 
 * {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);  make transparent link selection, adjust last value opacity 0 to 1.0 
+    -webkit-tap-highlight-color: rgba(0,0,0,0); // make transparent link selection, adjust last value opacity 0 to 1.0 
     margin: 0;
     padding: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
+    
 }
 
 html {
     overflow: none;
 }
 body {
-    -webkit-touch-callout: none;                 prevent callout to copy image, etc when tap to hold 
-    -webkit-text-size-adjust: none;              prevent webkit from resizing text to fit 
-    -webkit-user-select: none;                   prevent copy paste, to allow, change 'none' to 'text' 
+    -webkit-touch-callout: none;               //  prevent callout to copy image, etc when tap to hold 
+    -webkit-text-size-adjust: none;             // prevent webkit from resizing text to fit 
+    -webkit-user-select: none;                  // prevent copy paste, to allow, change 'none' to 'text' 
     background:#ffffff;
     font-size: 13px;
     color: #666666;
@@ -429,6 +430,7 @@ a.overlay, div.overlay > a { position: absolute; left: 0; top: 0; right: 0; bott
 }
 #page-footer {  margin-top: -607px; }
 #page-footer-2 {  margin-top: -250px; }
+#list-shops a img, #list-shops a{ padding:0px; margin-left: -4px;}
 .container-2{
     margin: 0 auto; 
     max-width: 540px; 
@@ -446,4 +448,97 @@ a.overlay, div.overlay > a { position: absolute; left: 0; top: 0; right: 0; bott
 }
 .right-arrow{
     margin-right:13%;
+}
+#list-shops{
+    min-height: 100%;
+}
+/* Popup */
+#popup h3 {
+    text-align: center;
+    color: #F2A905 !important;
+}
+#popup-popup.ui-popup-active {
+    left: 0 !important;
+}
+#popup-popup {
+    max-height: 90%;
+    position: fixed;
+    top: 10% !important;
+    width: 100%;
+    z-index: 10000;
+}
+.ui-popup-container {
+    display: inline-block;
+    outline: 0 none;
+    padding: 0;
+    position: absolute;
+    z-index: 1100;
+}
+#popup, #popupBasic {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+    border: medium none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    text-shadow: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-wrapper {
+    text-align: center;
+}
+#popup .exit {
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 30px;
+    font-size: 28px;
+    height: 30px !important;
+    left: 5px;
+    margin-top: -18px;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+#popup #btn0, #popup #btn1, #popup #btn2 {
+    background: none repeat scroll 0 0 #f2a905;
+    border: medium none;
+    border-radius: 10px;
+    color: #368bb2;
+    height: 35px;
+    margin-right: 30px;
+    padding-top: 5px;
+    width: 150px;
+}
+.ui-btn-left, .ui-btn-right, .ui-btn-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ui-btn-left, .ui-btn-right, .ui-input-clear, .ui-btn-inline, .ui-grid-a .ui-btn, .ui-grid-b .ui-btn, .ui-grid-c .ui-btn, .ui-grid-d .ui-btn, .ui-grid-e .ui-btn, .ui-grid-solo .ui-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.ui-btn {
+    cursor: pointer;
+    display: block;
+    margin: 0.5em 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+.ui-btn-inner {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 0.75em;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ui-btn-left, .ui-btn-right, .ui-btn-inline {
+    display: inline-block;
+    vertical-align: middle;
 }

@@ -202,7 +202,7 @@ var globalization = {
     *
     * @return    Object.pattern {String}: The date and time pattern for formatting and parsing dates.
     *                                    The patterns follow Unicode Technical Standard #35
-    *                                    http://unicode.org/reports/tr35/tr35-4.html
+    *                                    http://unicode.org/reports/tr35/tr35-shopSelectPrev.html
     *            Object.timezone {String}: The abbreviated name of the time zone on the client
     *            Object.utc_offset {Number}: The current difference in seconds between the client's
     *                                        time zone and coordinated universal time.
@@ -424,7 +424,7 @@ var globalization = {
     *
     * @return    Object.pattern {String}: The number pattern for formatting and parsing numbers.
     *                                    The patterns follow Unicode Technical Standard #35.
-    *                                    http://unicode.org/reports/tr35/tr35-4.html
+    *                                    http://unicode.org/reports/tr35/tr35-shopSelectPrev.html
     *            Object.symbol {String}: The symbol to be used when formatting and parsing
     *                                    e.g., percent or currency symbol.
     *            Object.fraction {Number}: The number of fractional digits to use when parsing and
@@ -462,7 +462,7 @@ var globalization = {
     *
     * @return    Object.pattern {String}: The currency pattern for formatting and parsing currency values.
     *                                    The patterns follow Unicode Technical Standard #35
-    *                                    http://unicode.org/reports/tr35/tr35-4.html
+    *                                    http://unicode.org/reports/tr35/tr35-shopSelectPrev.html
     *            Object.code {String}: The ISO 4217 currency code for the pattern.
     *            Object.fraction {Number}: The number of fractional digits to use when parsing and
     *                                    formatting currency.

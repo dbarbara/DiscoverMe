@@ -56,7 +56,7 @@
     width: 100%;
     z-index: 999998; /* high z-index */
     background: #000; /* fallback */
-    background: rgba(0,0,0,0.90);
+    background: rgba(0,0,0,0.80);
 }
  
 #black-hover {
@@ -92,7 +92,7 @@
 }
 .the-holder {
     margin: auto;
-    max-width: 540px;
+    /*max-width: 540px;*/
     text-align: center;
 }
 .left-acc, .right-decline{
@@ -269,4 +269,90 @@
     position: relative;
     width: 100%;
     z-index: 2147483647;
+}
+
+.overlay-bg-menu {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left: 0;
+    min-width: 220px;
+    position: fixed;
+    top: 0;
+    z-index: 999998;
+}
+
+
+.menu ul > li { list-style: none; }
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+}
+.menu {
+    display: block;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 50%;
+    padding-top: 30%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.overlay-bg-menu {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: auto auto auto 0;
+   max-width: 540px;
+    min-width: 220px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    z-index: 999998;
+}
+
+
+/*     Icons classes      */
+a.footwear, .footwear{background: url("../img/apparel_acc_footwear.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Appliances, .Appliances{background: url("../img/appliances_home.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Art, .Art {background: url("../img/art_colectibles.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Auto, .Auto{background: url("../img/auto_parts.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Bars, .Bars{background: url("../img/bars.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Books , .Books {background: url("../img/books_magazines.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Caffe, .Caffee{background: url("../img/caffee.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Computer , .Computer {background: url("../img/computer.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Consumer , .Consumer {background: url("../img/consumer_electronics.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Music, a.Music\/\Video, a.Music\/Video, a.Music\/Video, a Video, .Music .Video{background: url("../img/event_music_ticket.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Financial , .Financial {background: url("../img/financial_services.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Flowers , .Flowers {background: url("../img/flower_gift.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Food , .Food {background: url("../img/food_beverages.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Fumiture, .furniture{background: url("../img/furniture.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Groceries, .Groceries{background: url("../img/groceries.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Garden, .Garden{background: url("../img/home_garden.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.tickets, .tickets{background: url("../img/music.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Office , .Office {background: url("../img/office_products.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Over-the-counter, .Over-the-counter{background: url("../img/over_medicines.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Pets, .Pets{background: url("../img/pets.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Restaurants, .Restaurants{background: url("../img/restaurants.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Sporting , .Sporting {background: url("../img/sports_fitness.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Tools, .Tools{background: url("../img/tools.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Jewelry, a.Watches, .Jewelry{background: url("../img/jewelery.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.video , .video {background: url("../img/videogame.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+a.Amenities , .Amenities {background: url("../img/amenities.png") no-repeat center;display: block;margin:0;padding:0;height: 60px;position: relative;overflow:hidden;text-indent:100%;white-space:nowrap;width: 60px;text-indent: -9999px;}
+/*   End Icons classes   */
+
+.theNext {
+    background: none repeat scroll 0 0 #286885;
+    clear: both;
+    color: white;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+.title-shop{
+    text-transform: capitalize;
 }
